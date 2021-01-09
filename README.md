@@ -16,6 +16,7 @@
 
   ## Usage
   ![demo](demo.gif)
+  
   When you run node index.js, the application uses the inquirer package to prompt you in the command line with a series of questions about your GitHub and about your project.(so, if you don't answer the optional questions, such as Installation, an Installation section will not be included in your README). The README will also include badges for your GitHub repo. Finally, fs.writeFile is used to generate your project's README.md file. 
 
   ## Installation
