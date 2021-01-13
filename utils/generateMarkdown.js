@@ -90,7 +90,7 @@ function generateMarkdown(data) {
   ${renderTestSection(data.test)}
 
   ## Questions
-  If youe have any questions about the repo, open an issue or contact me directly @[${data.email}](${data.email}). You can find more of my work at [${data.username}](https://github.com/${data.username}).
+  If you have any questions about the repo, open an issue or contact me directly @[${data.email}](${data.email}). You can find more of my work at [${data.username}](https://github.com/${data.username}).
 
   ${renderLicenseSection(data)}
   `;
